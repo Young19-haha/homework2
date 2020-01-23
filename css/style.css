@@ -1,0 +1,82 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    color: white;
+    background-color: black;
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 5px 5px 2px #808080;
+}
+
+p {
+    font-size: 24px;
+    padding: 20px 0px 0px 0px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 525px ;
+}
+
+div{
+    min-height: 150px;
+    padding: 25px;
+}
+
+#red {
+    background-color: red;
+    text-align: right;
+}
+
+#red h2, #red p {
+    background-color: red;
+}
+
+#blue, #blue h2, #blue p {
+    background-color: blue;
+    text-align: left;
+}
+
+#yellow, #yellow h2, #yellow p {
+    background-color: yellow;
+    text-align: right;
+}
+
+#yellow h2, #yellow p {
+   color: black;
+}
+
+#yellow h2{
+    text-shadow: 5px 5px 2px #c7e2c7;
+}
+
+#green, #green h2, #green p {
+    background-color: green;
+    text-align: left;
+}
+
+footer {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+
